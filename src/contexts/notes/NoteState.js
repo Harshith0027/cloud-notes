@@ -5,7 +5,7 @@ import alertContext from "../alerts/alertContext";
 
 
 function NoteState (props) {
-    const host = "http://localhost:5000"
+    const host = "https://cloud-notes-mjfh.onrender.com"
     const noteInitial = [];
     const [notes,setNotes] = useState(noteInitial);
     const context = useContext(loadingContext);
