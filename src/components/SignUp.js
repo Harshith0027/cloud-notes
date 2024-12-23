@@ -4,7 +4,7 @@ import alertContext from '../contexts/alerts/alertContext';
 //import {loadingContext} from '../contexts/loadingBar/LoadingState';
 
 const SignUp = () => {
-  const host = "http://localhost:5000";
+  const host = "https://cloud-notes-mjfh.onrender.com";
   const navigate = useNavigate();
   const context = useContext(alertContext);
  // const context2 = useContext(loadingContext);
